@@ -11,7 +11,7 @@ def create_board(n):
     :param n: board's size
     :return: list of ships
     """
-    ships = gc.place_ships(n, gc.create_ships(l_min=n // 5, l_max=n, nb_bat=n // 2, average=3.5, sigma=1.5))
+    ships = gc.place_ships(n, gc.create_ships(l_min=n // 5, l_max=n, nb_bat=n // 2, average=n**(1/2), sigma=1.5))
     for i in range(n):
         for j in range(n):
             can.create_rectangle(j * h, i * w, (j + 1) * h,  (i + 1) * w, fill="blue")
