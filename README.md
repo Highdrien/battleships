@@ -1,4 +1,4 @@
-# Bataille navale
+# Battleship
 
 This is an implementation of the [Battleship](https://en.wikipedia.org/wiki/Battleship_(game)) game in python with a graphical interface.
 
