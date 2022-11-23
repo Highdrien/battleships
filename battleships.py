@@ -56,7 +56,7 @@ def play(i, j):
                     t = time.time()
                     lab.config(text='Congratulations, you have won  !')
                     win = nb_coups(M)
-                    lab_nb_bat.config(text='en ' + str(win) + ' moves and ' + str(t - t0) + ' seconds')
+                    lab_nb_bat.config(text='in ' + str(win) + ' moves and ' + str(t - t0) + ' seconds')
                     if id.User != 'User':
                         leaderboard(id.User, win, t - t0)
 
